@@ -28,7 +28,7 @@ namespace FBDesktop.Pages
             Driver.FindElementByName("Add Bio").Click();
         }
 
-        public void AddBio(String text)
+        public void EnterBio(String text)
         {
             Actions EnterBio = new Actions(Driver);
             EnterBio.SendKeys(text).Build().Perform();
